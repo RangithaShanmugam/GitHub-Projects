@@ -1,0 +1,49 @@
+Step 1: Login from browser, when sucess redirected to citrix receiver
+
+https://accessonlinesib.com/vpn/index.html
+Username: TP255SGS
+Password:xxx
+otp: 9709<add 6 digits generated to mobile number>
+
+Step 2:Once VDI is logged in, then take RDP for APP server 
+App Server
+Server: 10.64.32.218
+LDAP user: Support_uat
+Password : Sib@12345
+
+Tomcat available in this server inside D:
+ 
+Step 3: Same as App server take RDP for this machine
+10.64.32.206
+LDAP user: Support_uat
+Password : Sib@12345
+database available here
+
+DBNAME: IVRrule_engdb,
+Username: IVRruleEng_UAT
+Pwd :Welcome2#uae
+
+------------
+http://10.64.32.218:8080/rule/ruleEngine/executeRules
+http://10.64.32.218:8081/RuleEngine
+
+Database URL:
+#jdbc:sqlserver://10.64.58.21\\MSSQLPCITST2016;databaseName=IVRrule_engdb
+jdbc:sqlserver://10.64.58.21\\MSSQLPCITST2016;databaseName=IVRrule_engdb_UM
+user:IVRRuleEng_UAT
+Pwd :Welcome2#uae
+
+NLB
+Rule Engine API : https://ruleengapiuat.sib.local/rule/ruleEngine/executeRules
+Rule Engine Application : https://ruleengappuat.sib.local/RuleEngine
+
+https://10.64.104.26/RuleEngine
+https://10.64.104.25/rule/ruleEngine/executeRules
+
+LDAP
+app.ldap.enabled=true
+app.ldap.url=ldap://10.32.18.48:389
+app.ldap.userdomain=SIB
+
+Login:support_uat 
+Sib@12345
