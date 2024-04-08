@@ -1,0 +1,39 @@
+{
+
+// Make Rest call logs
+logger.info (strSessionId+":: Make Rest Call is Successful!" );
+logger.info (strSessionId+":: Json Request sent in Make rest call is ="+ strRestGetRequestBody );
+logger.info (strSessionId+":: Response received is ="+ strRestGetResponse );
+logger.info (strSessionId+":: Status code is  ="+ strRestGetStatus +"  and Status details is ="+ strRestGetStatusDetail );
+logger.info (strSessionId+":: Going to parseResponse" );
+}
+
+failure
+{
+
+// Make Rest call logs
+logger.info (strSessionId+":: Make Rest Call is unsuccessful" );
+logger.info (strSessionId+":: Json Request sent in Make rest call is ="+ strRestGetRequestBody );
+logger.info (strSessionId+":: Response received is ="+ strRestGetResponse );
+logger.info (strSessionId+":: Status code is  ="+ strRestGetStatus +"  and Status details is ="+ strRestGetStatusDetail );
+logger.info (strSessionId+"::Going to Linkdown" );
+}
+
+
+Update
+do
+{
+
+// Make Rest call logs
+logger.info (strSessionId+":: Json Request sent in Make rest call is ="+ strRestGetRequestBody );
+logger.info (strSessionId+":: Response received is ="+ strRestGetResponse );
+logger.info (strSessionId+":: Status code is  ="+ strRestGetStatus +"  and Status details is ="+ strRestGetStatusDetail );
+}
+
+{
+
+// Make Rest call logs
+logger.info (strSessionId+":: Json Request sent in Make rest call is ="+ strRestGetRequestBody );
+logger.info (strSessionId+":: Response received is ="+ strRestGetResponse );
+logger.info (strSessionId+":: Status code is  ="+ strRestGetStatus +"  and Status details is ="+ strRestGetStatusDetail );
+}

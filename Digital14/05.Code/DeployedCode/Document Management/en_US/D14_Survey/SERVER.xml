@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<IVR_CONFIG>
+
+ <!--Set this value to Y if secondary server is available
+ Note: In Production it should be Y in case of redundancy app server available,
+ in dev or UAT environment it should be set as N-->
+ <IS_SECONDARY_AVAILABLE>N</IS_SECONDARY_AVAILABLE>
+ 
+ <!-- Primary App server host and port number-->
+ <PRIMARY_APP_SERVER>43.241.62.118:8080</PRIMARY_APP_SERVER>
+ 
+ <!-- Secondary App server host and port number-->
+ <SECONDARY_APP_SERVER>43.241.62.118:8080</SECONDARY_APP_SERVER>
+ 
+ <!-- UCCX Server User name and Pwd for callback numbers upload-->
+ <USER_NAME>cxadmin </USER_NAME>
+ <PASSWORD>appAdmin_123</PASSWORD>
+ 
+</IVR_CONFIG>

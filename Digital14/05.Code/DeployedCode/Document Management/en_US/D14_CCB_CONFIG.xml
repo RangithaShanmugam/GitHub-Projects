@@ -1,0 +1,10 @@
+<IVR_CONFIG>
+<ADD_CONTACTS_URL>https://cognicxuccx.corp.cognicx.com/adminapi/campaign/2/contacts</ADD_CONTACTS_URL>
+<REF_URL>https://cognicxuccx.corp.cognicx.com/adminapi/campaign/</REF_URL>
+<CAMPAIGN_NAME>callback</CAMPAIGN_NAME>
+<CAMPAIGN_ID>2</CAMPAIGN_ID>
+<DEFAULT_PROMPT_PATH>Digital14/Phase2/CallBack/</DEFAULT_PROMPT_PATH>
+<IVR_FLOW_ID>Digital_01_CCB</IVR_FLOW_ID>
+<VM_NUMBER>3111</VM_NUMBER>
+<REPORT_HOST_URL>survey/survey/saveCallData</REPORT_HOST_URL>
+</IVR_CONFIG>

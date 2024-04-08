@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<IVR_CONFIG>
+      
+  <!-- Common Prompts configuration -->
+  <PROMPT_COMMON_PATH>Digital14/Survey/</PROMPT_COMMON_PATH>
+  <!--Linkdown message in english-->
+  <PROMPT_LINK_DOWN>3012.wav</PROMPT_LINK_DOWN>
+  <PROMPT_ARA_LINK_DOWN>LinkDown_lang.wav</PROMPT_ARA_LINK_DOWN>
+  <PROMPT_THANK_YOU>3011.wav</PROMPT_THANK_YOU>
+
+  <!--Host Details-->
+  <!-- Get Survey Details  -->
+ 
+  <GET_SURVEY_DETAILS_URL>survey/survey/getIVRFeedbackFormDetails</GET_SURVEY_DETAILS_URL>
+  <!--<GET_SURVEY_DETAILS_URL>survey/survey/getIVRFeedbackFormDetails</GET_SURVEY_DETAILS_URL>-->
+  <GET_SURVEY_CONNECT_TIMEOUT>5000</GET_SURVEY_CONNECT_TIMEOUT>
+  <GET_SURVEY_READ_TIMEOUT>5000</GET_SURVEY_READ_TIMEOUT>
+  
+  <!-- Update Survey Details -->
+  <!-- <UPDATE_SURVEY_DETAILS_URL>survey/survey/insertSurveyEvaluationForm</UPDATE_SURVEY_DETAILS_URL>-->
+  <UPDATE_SURVEY_DETAILS_URL>survey/survey/insertSurveyEvaluationForm</UPDATE_SURVEY_DETAILS_URL>
+  <UPDATE_SURVEY_CONNECT_TIMEOUT>5000</UPDATE_SURVEY_CONNECT_TIMEOUT>
+  <UPDATE_SURVEY_READ_TIMEOUT>5000</UPDATE_SURVEY_READ_TIMEOUT>
+     
+ 
+</IVR_CONFIG>
